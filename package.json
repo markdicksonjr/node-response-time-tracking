@@ -1,0 +1,28 @@
+{
+ "name" : "node-response-time-tracking",
+ "private": false,
+ "version" : "0.0.1",
+ "description" : "Node.js response time tracking",
+ "main" : "./lib/module.js",
+ "repository": {
+    "type": "git",
+    "url": "https://github.com/markdicksonjr/node-response-time-tracking.git"
+ },
+ "author": "Mark Dickson <markdicksonjr@gmail.com>",
+ "contributors": [
+   {
+      "name": "Mark Dickson",
+      "email": "markdicksonjr@gmail.com"
+   }
+ ],
+  "license": "proprietary",
+  "engines": {
+      "node": ">=0.8.14"
+  },
+  "dependencies": {
+    "on-headers": "*",
+    "semaphore": "*"
+  },
+  "scripts": {
+  }
+}
